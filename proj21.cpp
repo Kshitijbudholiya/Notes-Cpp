@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+
+// Inheritance Code
 class ITM
 {
     public:
