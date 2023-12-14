@@ -1,29 +1,29 @@
 // // Default Constructors.
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-class Student
-{
-    public:
-    int age;
-    float height;
-    string name;
+// class Student
+// {
+//     public:
+//     int age;
+//     float height;
+//     string name;
 
-    Student()
-    {
-        age = 17;
-        height = 5.7;
-        name = "Kshitij";
-    };
-};
+//     Student()
+//     {
+//         age = 17;
+//         height = 5.7;
+//         name = "Kshitij";
+//     };
+// };
 
-int main()
-{
-    Student studentOne = Student();
-    cout<<studentOne.name<<endl<<studentOne.age<<endl<<studentOne.height<<endl;
-    return 0;
-}
+// int main()
+// {
+//     Student studentOne = Student();
+//     cout<<studentOne.name<<endl<<studentOne.age<<endl<<studentOne.height<<endl;
+//     return 0;
+// }
 
 // // Paramatrices Constructors.
 
