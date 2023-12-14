@@ -1,39 +1,41 @@
 /*
-    Functions are of mainly of two types:
-    1. Returnable --> Default & Parametrized.
-    2. Non-returnable --> Default & Parametrized.   
+Control Statements.
+1. If Else.
+2. Loops.
 */
+
+// 1. If-else statement.
 
 #include<iostream>
 using namespace std;
 
-int prntNum()
-{
-    int num = 15;   
-    return num;
-}
-
-int sum(int numOne, int numTwo)
-{
-    int sum = numOne + numTwo;
-    return sum;
-}
-
-void def()
-{
-    cout<<"This is a default non-returnable func"<<endl;
-}
-
-void parametrized(int numIs)
-{
-    cout<<"This is a parametrized non-returnable func"<<numIs;
-}
-
 int main()
 {
-    cout<<prntNum()<<endl;
-    cout<<sum(13, 10)<<endl;
-    def();
-    parametrized(34);
+    int num = 15;
+
+    // Simple If Statement.
+    if (num == 15)
+    {
+        cout<<"This is if statement."<<endl;
+    }
+
+    // If else Statement.
+    if(num < 10)
+    {
+        cout<<"If Satement."<<endl;
+    }else{
+        cout<<"Else Statement."<<endl;
+    }
+
+    // If else if else Satement.
+    if(num < 10)
+    {
+        cout<<"If Satement."<<endl;
+    }else if(num > 10){
+        cout<<"Else if Block."<<endl;
+    }
+    else{
+        cout<<"Else Statement."<<endl;
+    }
     return 0;
 }
