@@ -11,7 +11,7 @@ class MyClass
     {
         this->numOne = numOne;
         this->numTwo = numTwo;
-        this->name = name; //Used to 
+        this->name = name; // Used to Indicate Current Object.
     }
 
     ~MyClass()
