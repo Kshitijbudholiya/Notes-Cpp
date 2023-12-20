@@ -1,6 +1,5 @@
 /.vscode
+/Extra
 *.exe
 .gitignore
 tempCodeRunnerFile.cpp
-/Lab
-/Practice
