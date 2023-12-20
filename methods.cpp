@@ -3,7 +3,7 @@ using namespace std;
 
 /* Diffrence B/W Function and Methods */
 
-void func()
+void func() // This is a function
 {
     cout<<"This is function."<<endl;
 }
@@ -11,7 +11,7 @@ void func()
 class MyClass
 {
     public:
-    void method()
+    void method() // This is a method
     {
         cout<<"It is a method."<<endl;
     }

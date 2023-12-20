@@ -10,11 +10,11 @@ class MyClass
     MyClass(int numOne, int numTwo, string name)
     {
         this->numOne = numOne;
-        this->numTwo = numTwo;
+        this->numTwo = numTwo; // Works Similar to obj.numTwo = numTwo;
         this->name = name; // Used to Indicate Current Object.
     }
 
-    ~MyClass()
+    ~MyClass() // Destructor
     {
         cout<<"This is a destructor"<<endl;
     }

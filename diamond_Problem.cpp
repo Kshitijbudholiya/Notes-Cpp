@@ -1,13 +1,12 @@
 #include<iostream>
 using namespace std;
 
+// Diamond Problem
+
 class GrandParent
 {
     public:
     int numOne = 25;
-
-    protected:
-    int protNum = 91;
 };
 
 class ParentOne : public GrandParent
@@ -20,12 +19,6 @@ class ParentTwo : public GrandParent
 {
     public:
     int numThree = 20;
-
-    void info()
-    {
-        cout<<protNum<<endl;
-        cout<<numOne<<endl;
-    }
 };
 
 class Child : public ParentOne, public ParentTwo
@@ -34,7 +27,7 @@ class Child : public ParentOne, public ParentTwo
     int numThree = 06;
     Child()
     {
-        info();
+        cout<<numOne<<endl; // This will return an error
         cout<<numTwo<<endl;
         cout<<numThree<<endl;
     }
